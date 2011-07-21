@@ -11,7 +11,7 @@ requirements = []
 setup(
     name = "django-clippy",
     version = ".".join(map(str, VERSION)),
-    description = "",
+    description = "A template tag for a 'copy to clipboard' button, based on GitHub's Clippy.",
     long_description = read('README.rst'),
     url = '',
     license = 'MIT',
