@@ -9,7 +9,7 @@ def read(fname):
 requirements = []
 
 setup(
-    name = "django-clippy",
+    name = "clippy",
     version = ".".join(map(str, VERSION)),
     description = "",
     long_description = read('README.rst'),
