@@ -12,7 +12,7 @@ Instructions
 
     {% load clippy %}
     <div id="mycode"><a href=""><img src="" alt="" /></a></div>
-    {% clippy <element_id> <size> <bgcolor> <wmode> %}
+    {% clippy "<element_id>" "<size>" "<bgcolor>" "<wmode>" %}
 
 The ``element_id`` parameter is mandatory. All other parameters are optional. Defaults are ``size='14x210'``, ``bgcolor='#FFFFFF'``, ``wmode='opaque'``
 
