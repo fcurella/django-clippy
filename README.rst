@@ -1,7 +1,7 @@
 Django-Clippy
 ======================================
 
-Provides a template tag for a 'copy to clipboard' button, based on GitHub's Clippy.
+Provides a template tag for a 'copy to clipboard' button, based on GitHub's Clippy_.
 
 Instructions
 ------------
@@ -17,3 +17,6 @@ Instructions
 The ``element_id`` parameter is mandatory. All other parameters are optional. Defaults are ``size='14x210'``, ``bgcolor='#FFFFFF'``, ``wmode='opaque'``
 
 Clippy's template can be overridden creating your own template file at `clippy/clippy.html` in your templates directory.
+
+
+.. _Clippy: https://github.com/mojombo/clippy
